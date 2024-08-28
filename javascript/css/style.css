@@ -10,6 +10,10 @@ body {
   color: #333;
 }
 
+h2 {
+  margin: 20px 0;
+}
+
 .container {
   height: 100vh;
   display: flex;
@@ -19,7 +23,8 @@ body {
   gap: 20px;
 }
 
-#task02 {
+#task02,
+#task03 {
   background: #fff;
   padding: 20px;
   border-radius: 8px;
@@ -28,14 +33,14 @@ body {
   max-width: 600px;
 }
 
-/* Bouton */
+/* Button */
 button {
   background-color: #333;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  margin: 20px 0;
+  margin-bottom: 20px;
   cursor: pointer;
   font-size: 16px;
   transition: background-color 0.3s;
@@ -43,4 +48,18 @@ button {
 
 button:hover {
   background-color: #525252;
+}
+
+/* Todo list */
+ul#todoList {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul#todoList li {
+  background: #f9f9f9;
+  margin: 5px 0;
+  padding: 10px;
+  border-left: 4px solid #333;
+  border-radius: 4px;
 }
